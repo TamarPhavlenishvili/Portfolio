@@ -345,6 +345,10 @@ header{z-index:100}header nav,.menu-toggle,.service-toggle,.links a,.scholarship
 @keyframes win-reveal{from{opacity:0}to{opacity:1}}@keyframes win-flow{to{stroke-dashoffset:-36}}@keyframes win-lead-arrive{from{opacity:0;transform:translate(var(--x),var(--y)) scale(.2)}to{opacity:1;transform:none}}@keyframes win-underline{from{scale:0 1}to{scale:1 1}}@keyframes win-stamp{from{opacity:0;transform:rotate(-18deg) scale(1.8)}to{opacity:1;transform:rotate(-7deg) scale(1)}}
 @media(max-width:360px){.campaign-win{padding:22px 15px!important}.win-network{margin-bottom:15px}.campaign-win .win-copy strong{font-size:30px}.win-receipt{margin-top:18px}}
 @media(prefers-reduced-motion:reduce){.campaign-win,.win-paths,.win-crowd i,.win-copy em:after,.win-stamp{animation:none!important}}
+</style><style id="unified-section-headings">
+:is(#services,#impact,#work,#toolkit,#experience)>.wrap>h2{font-family:var(--fb);font-size:clamp(34px,5vw,64px);font-weight:700;color:var(--fg);line-height:1.1;letter-spacing:-.04em;text-transform:none;max-width:22ch;margin:0 0 42px}
+:is(#services,#impact,#work,#toolkit,#experience)>.wrap>h2 .heading-word{font:inherit;color:inherit;letter-spacing:inherit}
+@media(max-width:760px){:is(#services,#impact,#work,#toolkit,#experience)>.wrap>h2{font-size:clamp(32px,7vw,44px);margin-bottom:30px}}
 </style></head><script>
 (function(){
 window.watchMotionChange=function(handler){var query=matchMedia("(prefers-reduced-motion: reduce)");if(query.addEventListener)query.addEventListener("change",handler);else if(query.addListener)query.addListener(handler)};
